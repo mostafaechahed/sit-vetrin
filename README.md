@@ -1,2 +1,2 @@
-# sit-vetrin
-Site vitrine adaptable et animé
+# dentistProject
+Dentist Project  using only html/css/js

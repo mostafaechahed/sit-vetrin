@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Our doctors</title>
+  <link rel="stylesheet" href="./css/main.css">
+  <link rel="stylesheet" href="./css/doctors.css">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,500,600,700&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <section class="live">
+        <div class="person">
+          <div class="profile-pic"></div>
+        </div>
+        <div class="person">
+          <div class="profile-pic"></div>
+        </div>
+        <div class="person">
+          <div class="profile-pic"></div>
+        </div>
+        <div class="person">
+          <div class="profile-pic"></div>
+        </div>
+        <div class="person">
+          <div class="profile-pic"></div>
+        </div>
+        <div class="person">
+          <div class="profile-pic"></div>
+        </div>
+        <div class="person">
+          <div class="profile-pic"></div>
+        </div>
+      </section>
+      <section class="newsfeed">
+        <div class="card">
+          <div class="picture"></div>
+          <div class="content">
+            <div class="header">
+              <div class="profile-pic"></div>
+              <div class="detail">
+                <p class="name">amine lmajhad</p>
+              </div>
+            </div>
+            <div class="desc">
+                 people are rediscovering the COMFORT and CONFIDENCE to EAT, SPEAK, LAUGH AND ENJOY LIFE. They are designed to provide a foundation for replacement teeth which look, feel, and function like natural teeth. You can regain that SMILE with confidence, knowing that the teeth appear NATURAL.
+            </div>
+            </div>
+          </div>
+        </div>
+     <div class="card">
+          <div class="picture" id="girl"></div>
+          <div class="content">
+            <div class="header">
+              <div class="profile-pic" id="smallgirl"></div>
+              <div class="detail">
+                <p class="name">Miranda</p>
+              </div>
+            </div>
+            <div class="desc">
+                They offer a permanent solution to tooth loss. In the case of multiple missing teeth, dental implants may be used to support a dental bridge or with dentures to increase stability and reduce gum irritation.
+            </div>
+          </div>
+        </div> 
+      </section>
+      <br><br><br><br>
+      <footer>
+        <div id="divit1">
+            <h1 class="textlogo">Dental<img src="./img/blueLogo.png" alt="" class="logobuttom">HM</h1>
+              <p id="iste">Suscipit aspernatur nemo aute and veritatis yet mollit iste.
+                Totam minima and laudantium.Incididunt adipisicing quiq for
+                dolor so commodi or amet.</p>
+                <p id="iste">Copyright &copy;2021. From Solicode</p>
+        </div>
+        <div id="divit2">
+            <h1 class="itemtitle">Information</h1>
+            <ul class="ulbottom">
+              <li><a href="main.html">Home </a></li>
+              <li><a href="doctors.html">Doctors </a></li>
+              <li><a href="services.html">Services </a></li>
+              <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </div>
+        <div id="divit3">
+            <h1 class="itemtitle">Contact</h1>
+            <ul class="ulbottom">
+                <li>Phone:0564767464</li>
+                <li>Fax:4930393338</li>
+                <li><br></li>
+                <li>
+                  <a href="https://www.facebook.com"><i class="fab fa-facebook ut"></i></a>&ensp;
+                  <a href="https://www.instagram.com/"> <i class="fab fa-instagram-square ut"></i></a>&ensp;
+                  <a href="https://www.youtube.com/"><i class="fab fa-youtube ut"></i></a>  
+                </li>
+            </ul>
+        </div>
+    </footer>
+      <div class="space"></div>
+   
+  
+  <script src="./anime/lib/anime.js"></script>
+  <script>
+
+anime({
+  targets: '.live .person',
+  translateY: [100, 0],
+  duration: 1200,
+  delay: (el, i) => {
+    return 1000 + 100 * i;
+  },
+})
+anime({
+  targets: '.newsfeed .card',
+  translateY: [300, 0],
+  easing: 'easeOutExpo',
+  opacity: [0, 1],
+  delay: (el, i) => 700 + 300 * i
+})
+  </script>
+</body>
+
+</html>

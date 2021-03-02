@@ -1,0 +1,540 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,100&display=swap");
+body {
+  margin: 0;
+  padding: 0;
+}
+.grid-container {
+  display: grid;
+  grid-template-rows: auto;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  grid-template-areas:
+    "a1 a1 a2 a3 a3"
+    "b b b b b"
+    "c c c c c"
+    ". . d . ."
+    ". e1 e2 e3 ."
+    ". . s . ."
+    ". f1 f1 f2 f2"
+    ". . i . ."
+    " . h1 h2  h3 ."
+    ". . j . ."
+    "k k k k k"
+    "l l l l l"
+    ". d1 d2 d3 ."
+    "footer footer footer footer footer";
+  grid-gap: 2px;
+}
+#location {
+  margin-left: 90px;
+}
+.b {
+  grid-area: b;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+.d3 {
+  grid-area: d3;
+  margin-top: 40px;
+  margin-left: 30px;
+}
+.d2 {
+  grid-area: d2;
+  margin-top: 40px;
+  margin-left: 120px;
+}
+.d1 {
+  grid-area: d1;
+}
+.parbut {
+  color: gray;
+  font-family: "Quicksand", sans-serif;
+}
+#linkdoc {
+  color: #5697bf;
+  text-decoration: underline;
+  font-size: 18px;
+  font-family: "Raleway", sans-serif;
+  margin-top: 10px;
+}
+#iste {
+  color: white;
+  font-size: 15px;
+  font-family: "Indie Flower", cursive;
+}
+.logobuttom {
+  width: 30px;
+  height: 50px;
+}
+#divit1 {
+  margin-left: 40px;
+}
+#divit2 {
+  margin-left: 90px;
+}
+/* #divit3{
+  margin-left: 40px;
+  grid-area: divit3;
+} */
+li {
+  color: white;
+}
+.ut {
+  font-size: 25px;
+}
+.ulbottom {
+  list-style: none;
+  margin-left: -29px;
+}
+.ulbottom > li a {
+  color: white;
+  padding-bottom: 19px;
+}
+.textlogo {
+  font-size: 17px;
+  color: white;
+  font-family: "Lobster", cursive;
+}
+
+/* .navbar > li {
+  display: inline;
+}
+.navbar > li a {
+  text-decoration: none;
+  color: gray;
+  padding: 20px;
+}
+nav {
+  margin-top: 40px;
+  margin-left: -80px;
+} */
+#toplogo {
+  font-size: 35px;
+  color: rgb(172, 165, 165);
+  font-family: "Lobster", cursive;
+  margin-left: 80px;
+}
+.itemtitle {
+  margin-top: 45px;
+  font-size: 17px;
+  color: white;
+  font-family: "Lobster", cursive;
+}
+.l {
+  grid-area: l;
+  margin-bottom: 40px;
+}
+footer {
+  grid-area: footer;
+  background: linear-gradient(to top, #5697bf 26%, #ffffff 108%);
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+.spantitle {
+  color: #5697bf;
+  font-size: 20px;
+  font-family: "Lobster", cursive;
+}
+#procces {
+  color: #5697bf;
+  font-size: 25px;
+  
+}
+#proc {
+  font-family: "Lobster", cursive;
+  color: #d9a796;
+  font-size: 13px;
+}
+.ptext {
+  color: gray;
+}
+#sltext {
+  color: gray;
+  margin-left: 42px;
+}
+.num {
+  color: #5697bf;
+  line-height: 50px;
+  font-size: 50px;
+  padding-top: 90px;
+}
+.morser {
+  background-color: #5697bf;
+  border-style: none;
+  outline: none;
+  height: 40px;
+  width: 130px;
+  border-radius: 3px;
+}
+#docimg {
+  width: 400px;
+  height: 500px;
+}
+.mt {
+ 
+  color: #d9a796;
+}
+#buttonAd {
+  background-color: #d9a796;
+  color: white;
+  border-radius: 5px;
+  outline: none;
+  border-style: none;
+  height: 40px;
+  width: 130px;
+  margin-top: 20px;
+}
+.k {
+  grid-area: k;
+  height: 100px;
+  background: linear-gradient(to bottom, #5697bf 26%, #ffffff 108%);
+  margin: 0;
+  padding: 0;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+#ad {
+  color: white;
+  font-size: 25px;
+  margin-top: 15px;
+}
+.j {
+  grid-area: j;
+  margin-bottom: 30px;
+}
+.i {
+  grid-area: i;
+  padding: 20px;
+}
+
+.h3 {
+  grid-area: h3;
+}
+.h2 {
+  grid-area: h2;
+}
+.h1 {
+  grid-area: h1;
+}
+.drName {
+  color: rgb(207, 204, 204);
+}
+.f2 {
+  margin-top: 30px;
+  grid-area: f2;
+}
+.f1 {
+  margin-top: 30px;
+  grid-area: f1;
+}
+.s {
+  grid-area: s;
+  padding-bottom: 50px;
+}
+
+.e3 {
+  grid-area: e3;
+}
+.e2 {
+  grid-area: e2;
+}
+.e1 {
+  grid-area: e1;
+}
+.im {
+  width: 280px;
+  height: 200px;
+  transition: 1s;
+}
+.im:hover {
+  transform: scale(1.3);
+}
+.d {
+  grid-area: d;
+  margin-top: 30px;
+  margin-bottom: 10px;
+}
+.eTitle {
+  color: #d9a796;
+  font-size: 16px;
+  font-family: "Open Sans Condensed", sans-serif;
+  margin-top: px;
+}
+.hdet {
+  color: #5697bf;
+  font-size: 20px;
+  font-family: "Lobster", cursive;
+}
+.eContent {
+  color: gray;
+}
+.par {
+  color: white;
+  font-family: "Montserrat", sans-serif;
+  padding: 20px;
+}
+.c {
+  grid-area: c;
+  background-image: url('../img/S1.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 430px;
+}
+#slider {
+  background-color: #6dc1f8;
+  width: 280px;
+  height: 220px;
+  opacity: 0.8;
+  margin-top: 80px;
+  margin-left: 120px;
+}
+#left {
+  color: white;
+  margin: 2px;
+  cursor: pointer;
+}
+#right {
+  color: white;
+  float: right;
+  margin: 2px;
+  cursor: pointer;
+}
+.a1 {
+  grid-area: a1;
+}
+.info {
+  color: gray;
+  font-size: 10px;
+}
+.iloc {
+  color: #5697bf;
+}
+.a2 {
+  grid-area: a2;
+}
+.a3 {
+  grid-area: a3;
+}
+
+a {
+  text-decoration: none;
+  color: gray;
+}
+#logo {
+  width: 60px;
+  margin-left: 80px;
+  margin-top: -20px;
+}
+#conatct {
+  background-color: #5697bf;
+  width: 80px;
+  height: 25px;
+  border-radius: 5px;
+  color: white;
+  border-style: none;
+  outline: none;
+}
+
+#co {
+  color: white;
+  margin-left: -8px;
+}
+
+.drbuttom {
+  border-radius: 90px;
+  width: 180px;
+  height: 180px;
+  transition: 1s;
+}
+.drbuttom:hover {
+  transform: scale(1.3);
+}
+.drT {
+  font-size: 16px;
+  font-family: "Dancing Script", cursive;
+  margin-left: 30px;
+  margin-top: -1px;
+}
+.proT {
+  font-size: 16px;
+  font-family: "Benne", serif;
+  color: gray;
+  margin-left: 36px;
+
+  margin-top: -10px;
+}
+nav {
+  top: 0;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  min-height: 8vh;
+  font-family: "Dancing Script", cursive;
+}
+
+.nav-links {
+  display: flex;
+  justify-content: space-around;
+  width: 30%;
+}
+
+.nav-links li {
+  list-style: none;
+  padding: 10px;
+}
+
+.nav-links a {
+  color: gray;
+  text-decoration: none;
+  letter-spacing: 1px;
+  font-size: 14px;
+}
+
+.burger {
+  display: none;
+}
+
+.burger div {
+  width: 25px;
+  height: 3px;
+  background-color: #5697bf;
+  margin: 5px;
+  transition: all 0.3s ease;
+}
+
+@media screen and (max-width: 1024px) {
+  .nav-links {
+    width: 60%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  body {
+    overflow-x: hidden;
+  }
+  .grid-container {
+    display: grid;
+    grid-template-rows: auto;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-areas:
+      "a1 a1 a2 a3 a3"
+      "b b b b b"
+      "c c c c c"
+      ". . d d d"
+      ". e1 e1 e1 ."
+      ". e2 e2 e2 ."
+      ". e3 e3 e3 ."
+      ". . s . ."
+      "f1 f1 f1 f1 f1"
+      ". f2 f2 f2 f2"
+      ". . i i i"
+      ". . h1 . ."
+      ". . h2 . ."
+      ". . h3 . ."
+      ". . j . ."
+      "k k k k k"
+      "l l l l l "
+      "d1 d1 d1 d1 d1"
+      "d2 d2 . d3 d3"
+      "footer footer footer footer footer";
+    grid-gap: 10px;
+  }
+  .e1,
+  .e2,
+  .e3 {
+    margin-left: 100px;
+  }
+
+  .nav-links {
+    position: fixed;
+    right: 0px;
+    height: 92vh;
+    top: 8vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 50%;
+    transform: translateX(100%);
+    transition: transform 0.5s ease-in;
+  }
+
+  .nav-links li {
+    opacity: 0;
+  }
+
+  .burger {
+    display: block;
+    cursor: pointer;
+  }
+}
+
+.nav-active {
+  transform: translateX(0%);
+  background-color: rgb(221, 224, 226);
+}
+
+@keyframes navLinkFade {
+  from {
+    opacity: 0;
+    transform: translateX(50px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+.toggle .line1 {
+  transform: rotate(-45deg) translate(-5px, 6px);
+}
+
+.toggle .line2 {
+  opacity: 0;
+}
+
+.toggle .line3 {
+  transform: rotate(45deg) translate(-5px, -6px);
+}
+
+@media only screen and (max-width: 600px) {
+  .grid-container {
+    display: grid;
+    grid-template-rows: auto;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-areas:
+      "a1 a1 a2 a3 a3"
+      "b b b b b"
+      "c c c c c"
+      ". . d d d"
+      ". e1 e1 . ."
+      ". e2 e2 . ."
+      ". e3 e3 . ."
+      ". . s s ."
+      "f1 f1 f1 f1 ."
+      "f2 f2 f2 f2 ."
+      ". i i i i"
+      ". h1 h1 h1 h1"
+      ". h2 h2 h2 h2"
+      ". h3 h3 h3 h3"
+      ". . j . ."
+      "k k k k k"
+      "l l l l l "
+      "d1 d1 d1 d1 d1"
+      "d2 d2 d2 d2 d2"
+      "d3 d3 d3 d3 d3"
+      "footer footer footer footer footer";
+    grid-gap: 10px;
+  }
+  #toplogo {
+    font-size: 10px;
+  }
+  .iloc {
+    width: 40px;
+  }
+  .d3 {
+    margin-left: 120px;
+    margin-top: -20px;
+  }
+  #divit2 {
+    margin-left: -4px;
+  }
+}

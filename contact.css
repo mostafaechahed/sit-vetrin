@@ -1,0 +1,89 @@
+.fa-facebook {
+  background: #ffffff;
+  color: #5697BF;
+ border-radius: 30px;
+}
+.fa {
+  padding: 20px;
+  font-size: 50px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+}
+
+.fa-twitter {
+  background: #ffffff;
+  color: #5697BF;
+  border-radius: 30px;
+}
+
+.fa-google {
+  background: #ffffff;
+  color:#5697BF;
+  border-radius: 30px;
+}
+
+.fa-instagram {
+  background: #ffffff;
+  color: #5697BF;
+  border-radius: 30px;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+p{
+  padding-left: 10%;
+}
+
+input{border: 0.5px solid black;
+  width: 60%;
+  outline: none;
+  padding: 2%;
+ 
+  margin: 1%;
+  border-radius: 30px;
+
+}
+textarea{  outline: none;
+    margin: 1%;
+  width: 75%;
+  
+}
+button{background-color: #ffffff;
+  color: #5697BF;
+  border: 1px solid #5697BF;
+  padding: 2%;
+  margin-left: 3%;
+  outline: none;
+  border-radius: 30px;
+}
+#fléch{
+width: 100px;
+height: 100px;
+}
+.conteneur-flex{
+    display: flex;
+    flex-flow : row wrap;
+    justify-content: space-around;
+    background-color: rgb(255, 255, 255); /*Bleu*/
+}
+
+.element-flex{
+    flex: 1 1;
+    background-color: rgb(255, 255, 255); /*Jaune*/
+    height: 400px;
+    margin: 10px;
+    padding-left: 5%;
+}
+/*Pour tous les appareils équipés d'écrans et dont la taille est inférieure à 780px*/
+@media screen and (max-width: 780px){
+  body{
+      background-color: #848; /*Violet*/
+}
+  .conteneur-flex{
+      flex-flow: column wrap;
+  }
+}

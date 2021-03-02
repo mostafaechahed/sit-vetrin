@@ -1,0 +1,43 @@
+
+p{
+    padding-left: 10%;
+  }
+  
+  input{
+    width: 60%;
+    padding: 2%;
+    margin: 1%;
+  }
+  textarea{  
+      margin: 1%;
+    width: 75%;
+  }
+  button{background-color: none;
+    color: #566EF1;
+    border: 1px solid #566EF1;
+    padding: 2%;
+    border-radius: 30px;
+  }
+  .conteneur-flex{
+      display: flex;
+      flex-flow : row wrap;
+      justify-content: space-around;
+      background-color: rgb(255, 255, 255); /*Bleu*/
+  }
+  
+  .element-flex{
+      flex: 1 1;
+      background-color: rgb(255, 255, 255); /*Jaune*/
+      height: 400px;
+      margin: 10px;
+      padding-left: 5%;
+  }
+  /*Pour tous les appareils équipés d'écrans et dont la taille est inférieure à 780px*/
+  @media screen and (max-width: 780px){
+    body{
+        background-color: #848; /*Violet*/
+  }
+    .conteneur-flex{
+        flex-flow: column wrap;
+    }
+  }
