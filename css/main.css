@@ -47,19 +47,21 @@ body {
 }
 .parbut {
   color: gray;
-  font-family: "Quicksand", sans-serif;
+  
 }
 #linkdoc {
   color: #5697bf;
   text-decoration: underline;
   font-size: 18px;
-  font-family: "Raleway", sans-serif;
+
   margin-top: 10px;
 }
 #iste {
-  color: white;
+  color: rgb(255, 255, 255);
   font-size: 15px;
-  font-family: "Indie Flower", cursive;
+}
+.copyr{
+  color: rgb(209, 208, 208);
 }
 .logobuttom {
   width: 30px;
@@ -92,7 +94,7 @@ li {
 .textlogo {
   font-size: 17px;
   color: white;
-  font-family: "Lobster", cursive;
+ 
 }
 
 /* .navbar > li {
@@ -110,14 +112,14 @@ nav {
 #toplogo {
   font-size: 35px;
   color: rgb(172, 165, 165);
-  font-family: "Lobster", cursive;
+
   margin-left: 80px;
 }
 .itemtitle {
   margin-top: 45px;
   font-size: 17px;
   color: white;
-  font-family: "Lobster", cursive;
+ 
 }
 .l {
   grid-area: l;
@@ -132,7 +134,7 @@ footer {
 .spantitle {
   color: #5697bf;
   font-size: 20px;
-  font-family: "Lobster", cursive;
+ 
 }
 #procces {
   color: #5697bf;
@@ -140,7 +142,7 @@ footer {
   
 }
 #proc {
-  font-family: "Lobster", cursive;
+  
   color: #d9a796;
   font-size: 13px;
 }
@@ -256,25 +258,26 @@ footer {
 .eTitle {
   color: #d9a796;
   font-size: 16px;
-  font-family: "Open Sans Condensed", sans-serif;
+  
   margin-top: px;
 }
 .hdet {
   color: #5697bf;
   font-size: 20px;
-  font-family: "Lobster", cursive;
+  
+  
 }
 .eContent {
   color: gray;
 }
 .par {
   color: white;
-  font-family: "Montserrat", sans-serif;
+ 
   padding: 20px;
 }
 .c {
   grid-area: c;
-  background-image: url('../img/S1.jpg');
+  background-image: url('../img/andrea.jpg');
   background-size: cover;
   background-repeat: no-repeat;
   height: 430px;
@@ -350,13 +353,11 @@ a {
 }
 .drT {
   font-size: 16px;
-  font-family: "Dancing Script", cursive;
   margin-left: 30px;
   margin-top: -1px;
 }
 .proT {
   font-size: 16px;
-  font-family: "Benne", serif;
   color: gray;
   margin-left: 36px;
 
